@@ -34,7 +34,7 @@ flask run --host=0.0.0.0
 ```
 Now check with your browser and your phone's browser (should be on the same WLAN).
 
-Carefully adjust the cameras, has great impact on how goot it works!
+Carefully adjust the cameras. This will have great impact on how good it works!
 
 ![Stereo Cam im Browser](./images/sc-browser.png)
 
