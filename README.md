@@ -41,3 +41,8 @@ Carefully adjust the cameras, has great impact on how goot it works!
 Put the phone in the VR frame and enjoy!
 
 ![Stereo Cam im Browser](./images/sc-arrange.jpg)
+
+## Run it
+
+Todo's:
+- fullscreen mode must be adjusted for Apple phones
