@@ -6,7 +6,7 @@ A quick Sunday project: build a quick and easy stereo camera. You get two mobile
 
 ## Material
 - a Raspberry Pi with Raspbian (I used Model 4 / 4GB plus an additional Fan)
-- Two cheap USB Webcams
+- two cheap USB webcams
 - an old box
 - a Powerbank
 - one of those cheap plastic VR head mount frames for your phone
