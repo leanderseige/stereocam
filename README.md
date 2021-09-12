@@ -42,7 +42,9 @@ Put the phone in the VR frame and enjoy!
 
 ![Stereo Cam im Browser](./images/sc-arrange.jpg)
 
-## Run it
-
-Todo's:
+## Possible Improvements:
 - fullscreen mode must be adjusted for Apple phones
+- configure QoS on your network to avoid displays
+- open wifi AP on your phone and connect to Raspberry Pi to it, so they have an exclusive network and all the bandwidth.
+- switch from flas and jpeg to a separate h.264 stream somehow (ffserver?)
+- ...
