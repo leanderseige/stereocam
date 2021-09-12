@@ -13,7 +13,7 @@ A quick Sunday project: build a quick and dirty stereo camera.
 
 Build it all together:
 
-![Stereo Cam im Browser](./images/sc-box.png)
+![Stereo Cam im Browser](./images/sc-box.jpg)
 
 ## Install necessary Software
 
