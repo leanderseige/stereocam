@@ -46,5 +46,5 @@ Put the phone in the VR frame and enjoy!
 - fullscreen mode must be adjusted for Apple phones
 - configure QoS on your network to avoid dropping frames
 - open wifi AP on your phone and connect to Raspberry Pi to it, so they have an exclusive network and all the bandwidth.
-- switch from flas and jpeg to a separate h.264 stream somehow (ffserver?)
+- switch from flask and jpeg to a separate h.264 stream somehow (ffserver?)
 - ...
