@@ -9,7 +9,7 @@ A quick Sunday project: build a quick and dirty stereo camera.
 - Two Cheap USB Webcams
 - an old cardboard box
 - a Powerbank
-- one of those cheap plastic VR headmounts for your phone
+- one of those cheap plastic VR head mount frames for your phone
 
 Build it all together:
 
@@ -32,3 +32,8 @@ and run the server
 ```
 flask run --host=0.0.0.0
 ```
+Now check with your browser and your phone's browser (should be on the same WLAN).
+
+Put the phone in the VR frame and enjoy!
+
+![Stereo Cam im Browser](./images/sc-arrange.jpg)
