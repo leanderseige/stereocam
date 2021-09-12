@@ -2,7 +2,7 @@
 
 A quick Sunday project: build a quick and dirty stereo camera.
 
-![Stereo Cam im Browser](./images/sc-browser.png)
+![Stereo Cam im Browser](./images/sc-overview.png)
 
 ## Material
 - a Raspberry Pi (I used Model 4 / 4GB plus an additional Fan)
@@ -33,6 +33,8 @@ and run the server
 flask run --host=0.0.0.0
 ```
 Now check with your browser and your phone's browser (should be on the same WLAN).
+
+![Stereo Cam im Browser](./images/sc-browser.png)
 
 Put the phone in the VR frame and enjoy!
 
