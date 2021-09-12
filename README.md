@@ -11,6 +11,10 @@ A quick Sunday project: build a quick and dirty stereo camera.
 - a Powerbank
 - one of those cheap plastic VR headmounts for your phone
 
+Build it all together:
+
+![Stereo Cam im Browser](./images/sc-box.png)
+
 ## Install necessary Software
 
 ```
