@@ -2,7 +2,7 @@
 
 A quick Sunday project: build a quick and dirty stereo camera.
 
-![Stereo Cam im Browser](./images/sc-overview.png)
+![Stereo Cam im Browser](./images/sc-overview.jpg)
 
 ## Material
 - a Raspberry Pi (I used Model 4 / 4GB plus an additional Fan)
