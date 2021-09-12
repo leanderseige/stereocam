@@ -1,10 +1,20 @@
 from flask import Flask, Response
 import cv2
+from datetime import datetime
+
 
 app = Flask(__name__)
 
 cam1 = cv2.VideoCapture(0)
 cam2 = cv2.VideoCapture(2)
+
+font = cv2.FONT_HERSHEY_SIMPLEX
+org = (60, 240)
+fontScale = 1
+color = (32, 255, 32)
+thickness = 2
+
+face_cascade = cv2.CascadeClassifier('cv-haarcascades/haarcascade_frontalface_default.xml')
 
 def gen_frames():
     while True:
@@ -13,6 +23,10 @@ def gen_frames():
         if not (success1 & success2) :
             break
         else:
+            frame1 = cv2.putText(frame1, datetime.utcnow().strftime('%H:%M:%S.%f')[:-3], org, font, fontScale, color, thickness, cv2.LINE_AA)
+            faces = face_cascade.detectMultiScale(frame2, 1.1, 4)
+            for (x, y, w, h) in faces:
+                cv2.rectangle(frame2, (x, y), (x+w, y+h), (32, 32, 255), 2)
             frame3 = cv2.hconcat([frame1,frame2])
             ret, buffer = cv2.imencode('.jpg', frame3, [int(cv2.IMWRITE_JPEG_QUALITY), 70])
             frame = buffer.tobytes()
