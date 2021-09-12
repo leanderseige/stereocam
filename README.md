@@ -1,13 +1,13 @@
 # DIY Stereo Camera
 
-A quick Sunday project: build a quick and dirty stereo camera.
+A quick Sunday project: build a quick and easy stereo camera. You get two mobile devices: VR glasses and a mobile stereo camera, connected to each other.
 
-![Stereo Cam im Browser](./images/sc-overview.jpg)
+![Stereo Cam and Glasses](./images/sc-overview.jpg)
 
 ## Material
-- a Raspberry Pi (I used Model 4 / 4GB plus an additional Fan)
-- Two Cheap USB Webcams
-- an old cardboard box
+- a Raspberry Pi with Raspbian (I used Model 4 / 4GB plus an additional Fan)
+- Two codeheap USB Webcams
+- an old box
 - a Powerbank
 - one of those cheap plastic VR head mount frames for your phone
 
@@ -33,6 +33,8 @@ and run the server
 flask run --host=0.0.0.0
 ```
 Now check with your browser and your phone's browser (should be on the same WLAN).
+
+Carefully adjust the cameras, has great impact on how goot it works!
 
 ![Stereo Cam im Browser](./images/sc-browser.png)
 
